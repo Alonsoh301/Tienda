@@ -1,16 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.tienda.tienda.service;
-
 import com.tienda.tienda.repository.PersonaRepository;
 import org.springframework.stereotype.Service;
-
-/**
- *
- * @author Alonso
- */
 @Service
 public class PersonaService implements IPersonaService{
     @Autowired
