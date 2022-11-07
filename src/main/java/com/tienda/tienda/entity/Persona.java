@@ -1,10 +1,11 @@
 package com.tienda.tienda.entity;
 import java.io.Serializable;
 import javax.persistence.Entity;
-import javax.persistence.generationType;
-import javax.persistence.id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManytoOne;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table; 
 /**
  *
@@ -12,7 +13,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "personas")
-public class Persona implements Seriflizable {
+public class Persona implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
