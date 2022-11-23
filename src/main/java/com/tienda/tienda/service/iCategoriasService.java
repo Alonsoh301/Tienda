@@ -8,5 +8,8 @@ import java.util.List;
  * @author Alonso
  */
 public interface iCategoriasService {
-    public List<Categorias> listCategorias();
+    public List<Categorias> getALLcat();
+    public Categorias getcatBylId(long id);
+    public void savecat(Categorias Categorias);
+    public void delete(long id);
 }

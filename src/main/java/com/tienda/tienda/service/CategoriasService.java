@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @author Alonso
  */
 @Service
-public class CategoriasService {
+public class CategoriasService implements iCategoriasService{
     @Autowired
     private CategoriasRepository CategoriasRepository;
     

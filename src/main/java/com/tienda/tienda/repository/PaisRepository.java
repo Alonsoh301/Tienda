@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
  *
  * @author Alonso
  */
+@Repository
 public interface PaisRepository extends CrudRepository<Pais,Long>{
     
 }
